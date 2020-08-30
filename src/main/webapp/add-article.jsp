@@ -4,7 +4,7 @@
 <jsp:useBean id="articleService" scope="request" class="pl.sda.twitter.services.ArticleService"/>
 <%@ taglib prefix = "c" uri = "http://java.sun.com/jsp/jstl/core" %>
 <!doctype html>
-<html lang="en">
+<html lang="pl">
 <head>
     <jsp:include page="include/meta.jsp"/>
     <title>SDA Twitter dodaj artykuł</title>
@@ -19,7 +19,7 @@
 <div class="row text-center">
     <div class="col-md-8 pt-4 m-auto text-left">
     <h4 class="mb-3">Dodaj nowy wpis</h4>
-    <form name="addArticle" class="needs-validation" action="add-article" method="post">
+    <form name="addArticle" class="needs-validation" action="add-article" method="post" accept-charset="UTF-8">
         <div class="mb-3">
             <div class="form-group">
                 <label for="textArea">Wprowadź tekst</label>
