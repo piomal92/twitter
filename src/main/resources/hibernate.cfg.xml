@@ -12,6 +12,7 @@
         <property name="dialect">org.hibernate.dialect.MySQLDialect</property>
         <!-- Echo the SQL to stdout -->
         <property name="show_sql">true</property>
+        <mapping class="pl.sda.twitter.persistance.entities.TbUser"/>
     </session-factory>
 </hibernate-configuration>
 
